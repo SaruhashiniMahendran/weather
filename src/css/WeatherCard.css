@@ -1,0 +1,56 @@
+.mainCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: aqua;
+  height: 250px;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardOne {
+  flex: 1;
+}
+
+.cardTwo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: white; */
+  height: inherit;
+  line-height: 0px;
+}
+
+.cel {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 56px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.weather {
+  font-family: Cambria;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+}
+
+.day {
+  font-family: Cambria;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
